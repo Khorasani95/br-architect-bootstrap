@@ -1,0 +1,37 @@
+#hero-section {
+  height: calc(100vh - 56px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  background-image: url(./images/building.jpeg);
+}
+#br-head {
+  font-size: 15px;
+  font-family: Verdana, sans-serif;
+  letter-spacing: 5px;
+}
+header {
+  box-shadow: rgba(18, 18, 19, 0.514) 0px 20px 30px -10px;
+}
+#navbarSupportedContent {
+  font-size: 15px;
+  font-family: Verdana, sans-serif;
+  letter-spacing: 3px;
+}
+#br-text {
+  padding: 8px 20px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#about-section img {
+  filter: grayscale(100%);
+}
+
+header a:hover {
+  padding: 8px 12px;
+  background-color: rgba(128, 128, 128, 0.377);
+}
+#a-text,
+#br-text {
+  letter-spacing: 4px;
+}
